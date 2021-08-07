@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    background: url("/public/images/nubefondo.png"),linear-gradient(to bottom, rgb(41, 128, 187) 10%,rgb(118, 177, 216) 100%);
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    width: 450px;
+    margin: 5px;
+    
+
+}
+
+img:hover{
+  
+   position: fixed;
+   width: 770px;
+   top: 20%;
+   bottom: 20%;
+   left: 30%;
+   right: 100%;
+   
+}
+
+
+
+@media screen and (max-width:400px) {
+    img{
+        width: 250px;
+    }
+
+   img:hover{
+      
+       filter: sepia(50%);
+   }
+}
